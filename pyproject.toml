@@ -1,0 +1,23 @@
+[build-system]
+requires = ["setuptools", "setuptools-scm"]
+build-backend = "setuptools.build_meta"
+
+[project]
+name = "pushover_util"
+version = "0.3.0"
+authors = [
+    {name = "Matt Doyle"},
+]
+description = "Python-based helper library for interacting with the Pushover API."
+readme = "README.md"
+requires-python = ">=3.0"
+keywords = ["pushover"]
+license = {text = "MIT"}
+classifiers = [
+    "Development Status :: 4 - Beta",
+    "License :: OSI Approved :: MIT License",
+    "Programming Language :: Python :: 3",
+]
+
+# other project metadata fields as listed in:
+# https://packaging.python.org/en/latest/guides/writing-pyproject-toml/
