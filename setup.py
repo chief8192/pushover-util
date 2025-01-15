@@ -27,7 +27,7 @@ from setuptools import setup
 
 setup(
     name="pushover_util",
-    version="0.3.0",
+    version="0.4.0",
     description="Python-based helper library for interacting with the Pushover API.",
     url="https://github.com/chief8192/pushover-util",
     author="Matt Doyle",
